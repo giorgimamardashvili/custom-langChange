@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: tomato;
+}
+
+.container {
+  margin: auto;
+  margin-top: 35vh;
+  width: 50px;
+  height: 28px;
+  background: transparent;
+  border: 2px solid white;
+  border-radius: 5px;
+  overflow: hidden;
+  transition: height 0.5s;
+}
+
+.container:hover {
+  height: 84px;
+}
+
+.lang-container {
+  display: flex;
+
+  flex-direction: column;
+  list-style-type: none;
+
+  justify-content: space-around;
+  align-items: center;
+}
+
+.lang-item {
+}
+
+.lang-item a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+}
